@@ -1,0 +1,26 @@
+safe: true
+permalink: /:title.html
+exclude: [ assets, bem-components-demo, compare ]
+markdown: kramdown
+
+default_theme: yandex
+default_width: 792
+default_lang: en
+default_body_class: list
+
+kramdown:
+  enable_coderay: false
+
+presentation:
+    title: 'BEM: complete guide for your component frontend development'
+    service: BEM
+    nda: false
+
+author:
+    name: Vladimir Grinenko
+    position: 28 May 2016, Frontend United
+    company:
+        name: Yandex
+        url:  https://company.yandex.com/
+
+progress: true

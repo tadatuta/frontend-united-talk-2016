@@ -1,0 +1,12 @@
+{
+  "name": "frontend-united-talk-2016",
+  "version": "1.0.0",
+  "description": "This is a generator for the [Shower HTML presentation engine](https://github.com/shower/shower).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
