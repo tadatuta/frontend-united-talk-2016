@@ -102,7 +102,7 @@ body .slide:first-of-type h2::first-letter
 .slide#contacts > div::after
 {
     position: absolute;
-    top: 83px;
+    top: 140px;
     left: 120px;
 
     font-size: 39px;
@@ -906,4 +906,12 @@ ul li a:after
 
 [src="pictures/levels_en.png"] {
     transform: scale(1.5,1.5);
+}
+
+.slide > div {
+    transform: scale(0.9, 0.9);
+}
+
+#cover > div {
+    transform: none !important;
 }
