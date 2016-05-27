@@ -76,9 +76,11 @@ body .slide:first-of-type h2,
 {
     /*margin-left: .45em;*/
 
-    width: 123px;
-    height: 48px;
-    margin-bottom: ;
+    width: 250px;
+    height: 100px;
+    transform: scale(0.8, 0.8);
+    margin-left: -36px;
+
     content: '';
     background: url(../../../pictures/yandex.png);
     background-size: cover;
@@ -896,20 +898,25 @@ ul li a:after
 .slides-link {
     position: absolute;
     top: 700px;
-    left: 50%;
-    transform: translateX(-50%);
+
+    width: 100%;
+}
+
+.slides-link a {
+    text-decoration: none !important;
 }
 
 [src="pictures/css.gif"] {
-    transform: scale(3,3);
+    transform: scale(3, 3);
 }
 
 [src="pictures/levels_en.png"] {
-    transform: scale(1.5,1.5);
+    transform: scale(1.5, 1.5);
 }
 
 .slide > div {
     transform: scale(0.9, 0.9);
+    /*outline: 2px solid red;*/
 }
 
 #cover > div {

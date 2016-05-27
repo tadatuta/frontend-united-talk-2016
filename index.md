@@ -20,9 +20,9 @@ layout: default
 	<p class="author">{{ site.author.name }}, <br/> {{ site.author.position }}</p>
 </div>
 
-## **BEM is not just about CSS**
+## **<span style="font-size: 150%">BEM is <span style="color: red">not</span> just about CSS</span>**
 
-## **Interfaces are built with <br> <span style="font-size: 200%">blocks</span>**
+## **Interfaces are built with <br> <span style="font-size: 200%; line-height: 1.6">blocks</span>**
 
 ## **![](pictures/anatomy1.png)**
 {:.cover}
@@ -36,7 +36,7 @@ layout: default
 ## **![](pictures/anatomy4.png)**
 {:.cover}
 
-## **Blocks are made with <br> <span style="font-size: 200%">elements</span>**
+## **Blocks are made with <br> <span style="font-size: 200%; line-height: 1.6">elements</span>**
 
 ## **![](pictures/anatomy5.png)**
 {:.cover}
@@ -53,7 +53,7 @@ layout: default
 ## **![](pictures/anatomy9.png)**
 {:.cover}
 
-## **Same blocks may behave differently with <span style="font-size: 200%">modifiers</span>**
+## **Same blocks may behave differently with <span style="font-size: 200%; line-height: 1.6">modifiers</span>**
 
 ## **![](pictures/cat_type_red.jpg)**
 {:.cover}
@@ -74,12 +74,12 @@ layout: default
     <a style="color: #000; text-decoration: normal; top: -130px; display: inline-block; border: 0; background: 0; position: relative" href="https://en.bem.info/methodology/">bem.info</a>
 </div>
 
-## **CSS without conponent approach is <span style="font-size: 200%">pain</span>**
+## **CSS without component approach is <br> <span style="font-size: 200%; line-height: 1.6">a pain</span>**
 
 ## **![](pictures/css.gif)**
 {:.cover}
 
-## **Blocks are <span style="font-size: 200%">independent</span> and <span style="font-size: 200%">self-contained</span>**
+## **Blocks are <br> <span style="font-size: 200%; line-height: 1.3">independent</span> <br> and <br> <span style="font-size: 200%;  line-height: 1.3">self-contained</span>**
 
 ## **![](pictures/yog.svg)**
 {:.cover}
@@ -270,7 +270,7 @@ block('button')(
 );
 ~~~
 
-## **[BEMHTML](https://bem.github.io/bem-xjst/)**
+## **<span style="font-size: 250%; letter-spacing: 5px">[BEMHTML](https://bem.github.io/bem-xjst/)</span>**
 
 ## BEM on file system
 
@@ -295,7 +295,7 @@ blocks/
         button.bemhtml.js
 ~~~
 
-## **Tune library on project side**
+## **<span style="font-size: 140%">Tune library on project side</span>**
 
 ## Tune CSS
 
@@ -516,7 +516,7 @@ BEMDOM.decl('button', {
 ## **![](pictures/levels_en.png)**
 {:.cover}
 
-## **Ready-made UI libraries**
+## **<span style="font-size: 140%">Ready-made UI libraries</span>**
 
 ## **[![](pictures/bem-components-gh.png)](https://github.com/bem/bem-components/tree/v3/common.blocks)**
 {:.cover}
@@ -524,7 +524,7 @@ BEMDOM.decl('button', {
 ## **[![](pictures/bem-components-showcase.png)](https://en.bem.info/libs/bem-components/)**
 {:.cover}
 
-## **Component based testing**
+## **<span style="font-size: 140%">Component based testing</span>**
 
 ## **[![](pictures/travis1.png)](https://travis-ci.org/bem/bem-components)**
 {:.cover}
@@ -541,13 +541,13 @@ BEMDOM.decl('button', {
 ## **[![](pictures/travis5.png)](https://travis-ci.org/bem/bem-components)**
 {:.cover}
 
-## **Let's take it all!**
+## **<span style="font-size: 200%">Let's take it all!</span>**
 
-## **[project-stub](https://github.com/bem/project-stub/)**
+## **[<span style="font-size: 250%">project-stub</span>](https://github.com/bem/project-stub/)**
 
-## **BEM is <span style="color: red;">not</span> just about CSS**
+## **<span style="font-size: 130%">BEM is <span style="color: red">not</span> just about CSS</span>**
 
-## **BEM is <span style="color: red;">not</span> just about CSS**
+## **<span style="font-size: 130%">BEM is <span style="color: red;">not</span> just about CSS</span>**
 <div class="stump"></div>
 
 ## BEM is not just about CSS
@@ -561,7 +561,7 @@ BEMDOM.decl('button', {
 * ...SDK to build your own tools
 * ...and more
 
-## **[bem.info](https://en.bem.info/)**
+## **[<span style="font-size: 300%">bem.info</span>](https://en.bem.info/)**
 
 
 ## **![](pictures/partially.png)**
@@ -571,21 +571,21 @@ BEMDOM.decl('button', {
 ## **![](pictures/whole-platform.png)**
 {:.cover}
 
-## **Questions time!**
+## **<span style="font-size: 200%">Questions time!</span>**
 
 ## **Contacts** {#contacts}
 
-<div class="info">
-<p class="author">{{ site.author.name }}</p>
+<div class="info" style="margin-top: 100px">
+<p class="author" style="font-size: 50px">{{ site.author.name }}</p>
 <br>
 <!-- <p class="position">{{ site.author.position }}</p> -->
 
     <div class="contacts">
-        <p class="contacts-left contacts-top">bem.info</p>
-        <p class="contacts-left mail">info@bem.info</p>
-        <p class="contacts-right twitter">bem_en&nbsp;&nbsp;&nbsp;&nbsp;#b_</p>
+        <p class="contacts-left contacts-top" style="font-size: 50px !important">bem.info</p>
+        <p class="contacts-left mail" style="font-size: 50px !important">info@bem.info</p>
+        <p class="contacts-right twitter" style="font-size: 50px !important">bem_en&nbsp;&nbsp;&nbsp;&nbsp;#b_</p>
         <!-- <p class="contacts-right contacts-bottom vk">vk</p>
         <p class="contacts-right facebook">facebook</p> -->
     </div>
-    <div class="slides-link" style="font-size: 200%"><a href="http://tadatuta.github.io/frontend-united-talk-2016/">tadatuta.github.io/frontend-united-talk-2016</a></div>
+    <div class="slides-link" style="font-size: 300%"><a href="http://tadatuta.github.io/frontend-united-talk-2016/">tadatuta.github.io/frontend-united-talk-2016</a></div>
 </div>
