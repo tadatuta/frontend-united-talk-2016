@@ -915,3 +915,19 @@ ul li a:after
 #cover > div {
     transform: none !important;
 }
+
+.slide pre[class*="language-"] {
+    width: auto !important;
+}
+
+.slide code[class*="language-"], .slide pre[class*="language-"] {
+    font-size: 43px;
+}
+
+/*.slide pre code {
+    background: none;
+}
+*/
+.slide pre code::before {
+    content: "";
+}

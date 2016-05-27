@@ -86,7 +86,7 @@ layout: default
 
 ## BEM on file system
 
-~~~
+~~~ python
 blocks/
     button/
         button.css
@@ -95,7 +95,7 @@ blocks/
 
 ## BEM on file system
 
-~~~
+~~~ python
 blocks/
     button/
         button.css
@@ -105,7 +105,7 @@ blocks/
 
 ## BEM on file system
 
-~~~
+~~~ python
 blocks/
     button/
         button.css
@@ -116,7 +116,7 @@ blocks/
 
 ## BEM tree
 
-~~~
+~~~ markup
 <body class="page">
     <header class="header">
         <a class="logo" href="/"></a>
@@ -136,7 +136,7 @@ We need a way to describe interfaces in Blocks Elements and Modifiers
 
 ## BEM tree
 
-~~~
+~~~ python
 page
     header
         logo
@@ -148,7 +148,7 @@ page
 
 ## BEMJSON
 
-~~~js
+~~~javascript
 {
     block: 'page',
     title: 'Hello, BEM',
@@ -169,7 +169,7 @@ page
 
 ## Mixes: several entities on same node
 
-~~~
+~~~ markup
 <nav class="nav">
     <a class="link nav__item" href="/">Main</a>
     <a class="link nav__item" href="/about/">About</a>
@@ -178,7 +178,7 @@ page
 
 ## Mixes: several entities on same node
 
-~~~js
+~~~ javascript
 {
     block: 'nav',
     content: [
@@ -199,19 +199,19 @@ page
 ~~~
 
 ## BEMHTML: BEMJSON to HTML
-~~~
+~~~ markup
 <button class="button"></button>
 ~~~
 
 ## BEMHTML: BEMJSON to HTML
-~~~
+~~~ markup
 <font color="red">
     <button class="button"></button>
 </font>
 ~~~
 
 ## BEMHTML: BEMJSON to HTML
-~~~
+~~~ markup
 <button class="button"></button>
 ~~~
 
@@ -222,7 +222,7 @@ page
 ~~~
 
 ## BEMHTML: BEMJSON to HTML
-~~~
+~~~ markup
 <button class="button"></button>
 <div>
     <button class="button"></button>
@@ -237,13 +237,13 @@ page
 
 ## BEMHTML: BEMJSON to HTML
 
-~~~js
+~~~javascript
 {
     block: 'button'
 }
 ~~~
 
-~~~js
+~~~javascript
 block('button')(
     tag()('button')
 );
@@ -251,7 +251,7 @@ block('button')(
 
 ## BEMHTML: BEMJSON to HTML
 
-~~~js
+~~~javascript
 [
     {
         block: 'button'
@@ -264,7 +264,7 @@ block('button')(
 ]
 ~~~
 
-~~~js
+~~~javascript
 block('button')(
     tag()('button')
 );
@@ -274,7 +274,7 @@ block('button')(
 
 ## BEM on file system
 
-~~~
+~~~python
 blocks/
     button/
         button.css
@@ -285,7 +285,7 @@ blocks/
 
 ## BEM on file system
 
-~~~
+~~~python
 blocks/
     button/
         button.css
@@ -299,7 +299,7 @@ blocks/
 
 ## Tune CSS
 
-~~~
+~~~python
 library/
     button/
         button.css
@@ -307,7 +307,7 @@ library/
 
 ## Tune CSS
 
-~~~
+~~~python
 library/
     button/
         button.css
@@ -319,7 +319,7 @@ project/
 
 ## Tune CSS
 
-~~~
+~~~python
 library/
     button/
         button.css
@@ -335,7 +335,7 @@ project/
 
 ## Tune CSS
 
-~~~
+~~~python
 library/
     button/
         button.css
@@ -354,7 +354,7 @@ project/
 
 ## Tune CSS
 
-~~~
+~~~python
 library/
     button/
         button.css
@@ -371,13 +371,13 @@ project/
             }
 ~~~
 
-~~~
+~~~css
 @import library/blocks/button/button.css;
 @import project/blocks/button/button.css;
 ~~~
 
 ## Tune HTML
-~~~
+~~~python
 library/
     button/
         button.bemhtml.js
@@ -388,7 +388,7 @@ project/
 ~~~
 
 ## Tune HTML
-~~~
+~~~python
 library/
     button/
         button.bemhtml.js
@@ -416,7 +416,7 @@ project/
 }
 ~~~
 
-~~~
+~~~markup
 <button class="button"></button>
 ~~~
 
@@ -431,7 +431,7 @@ project/
 }
 ~~~
 
-~~~
+~~~markup
 <button class="button button_disabled"></button>
 ~~~
 

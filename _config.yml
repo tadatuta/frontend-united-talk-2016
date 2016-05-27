@@ -1,5 +1,6 @@
 safe: true
 permalink: /:title.html
+highlighter: pygments
 exclude: [ assets, bem-components-demo, compare ]
 markdown: kramdown
 
