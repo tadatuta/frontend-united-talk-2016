@@ -67,7 +67,7 @@ layout: default
 ## **![](pictures/anatomy11.png)**
 {:.cover}
 
-## Block Element Modifier
+## <span></span>
 <div style="text-align: center; font-size: 146px">
     <img src="pictures/bem-method.svg" style="width: 600px"><br>
 
@@ -301,80 +301,80 @@ blocks/
         button.bemhtml.js
 ~~~
 
+## **![](pictures/good.gif)**
+{:.cover}
+
 ## **<span style="font-size: 140%">Tune library on project side</span>**
 
 ## Tune CSS
 
 ~~~python
-library/
-    button/
-        button.css
+library/button/button.css
 ~~~
 
 ## Tune CSS
 
 ~~~python
-library/
-    button/
-        button.css
+library/button/button.css
+~~~
 
-project/
-    button/
-        button.css
+~~~python
+project/button/button.css
 ~~~
 
 ## Tune CSS
 
 ~~~python
-library/
-    button/
-        button.css
-            .button {
-                width: 200px;
-                color: green;
-            }
-
-project/
-    button/
-        button.css
+library/button/button.css
+~~~
+~~~css
+    .button {
+        width: 200px;
+        color: green;
+    }
+~~~
+~~~python
+project/button/button.css
 ~~~
 
 ## Tune CSS
 
 ~~~python
-library/
-    button/
-        button.css
-            .button {
-                width: 200px;
-                --color: green;--
-            }
-
-project/
-    button/
-        button.css
-            .button {
-                color: red;
-            }
+library/button/button.css
+~~~
+~~~css
+    .button {
+        width: 200px;
+        --color: green;--
+    }
+~~~
+~~~python
+project/button/button.css
+~~~
+~~~css
+    .button {
+        color: red;
+    }
 ~~~
 
 ## Tune CSS
 
 ~~~python
-library/
-    button/
-        button.css
-            .button {
-                width: 200px;
-                --color: green;--
-            }
-
-project/
-    button/
-        button.css
-            .button {
-                color: red;
-            }
+library/button/button.css
+~~~
+~~~css
+    .button {
+        width: 200px;
+        --color: green;--
+    }
+~~~
+~~~python
+project/button/button.css
+~~~
+~~~css
+    .button {
+        color: red;
+    }
 ~~~
 
 ~~~css
@@ -383,7 +383,7 @@ project/
 ~~~
 
 ## Tune HTML
-~~~python
+~~~javascript
 library/
     button/
         button.bemhtml.js
@@ -394,10 +394,11 @@ project/
 ~~~
 
 ## Tune HTML
-~~~python
+~~~javascript
 library/
     button/
         button.bemhtml.js
+
             block('button')(
                 tag()('button'),
                 attrs()({ 'area-role': 'button' })
@@ -406,6 +407,7 @@ library/
 project/
     button/
         button.bemhtml.js
+
             block('button')(
                 tag()('input')
             );
@@ -518,6 +520,9 @@ BEMDOM.decl('button', {
 ## **![](pictures/levels_en.png)**
 {:.cover}
 
+## **![](pictures/horse.gif)**
+{:.cover}
+
 ## **<span style="font-size: 140%">Ready-made UI libraries</span>**
 
 ## **[![](pictures/bem-components-gh.png)](https://github.com/bem/bem-components/tree/v3/common.blocks)**
@@ -544,6 +549,9 @@ BEMDOM.decl('button', {
 {:.cover}
 
 ## **<span style="font-size: 200%">Let's take it all!</span>**
+
+## **![](pictures/tools.gif)**
+{:.cover}
 
 ## **[<span style="font-size: 250%">project-stub</span>](https://github.com/bem/project-stub/)**
 
@@ -573,7 +581,8 @@ BEMDOM.decl('button', {
 ## **![](pictures/whole-platform.png)**
 {:.cover}
 
-## **<span style="font-size: 200%">Questions time!</span>**
+## **![](pictures/questions.gif)**
+{:.cover}
 
 ## **Contacts** {#contacts}
 

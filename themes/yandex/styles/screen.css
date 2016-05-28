@@ -939,3 +939,20 @@ ul li a:after
 .slide pre code::before {
     content: "";
 }
+
+#pictureshorsegif,
+#picturesquestionsgif,
+#picturestoolsgif,
+#picturesgoodgif {
+    background: #000 !important;
+}
+
+#pictureshorsegif img,
+#picturesquestionsgif img,
+#picturestoolsgif img,
+#picturesgoodgif img
+{
+    transform: scale(5,5);
+    /*width: 300%;*/
+    /*height: 300% !important;*/
+}
