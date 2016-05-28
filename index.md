@@ -121,8 +121,11 @@ blocks/
     <header class="header">
         <a class="logo" href="/"></a>
     </header>
+
     <div class="main"></div>
+
     <aside class="sidebar"></aside>
+
     <footer class="footer">
         <div class="copyright"></div>
     </footer>
@@ -200,19 +203,19 @@ page
 
 ## BEMHTML: BEMJSON to HTML
 ~~~ markup
-<button class="button"></button>
+<button class="button">I'm a button</button>
 ~~~
 
 ## BEMHTML: BEMJSON to HTML
 ~~~ markup
-<font color="red">
-    <button class="button"></button>
-</font>
+<button class="button">
+    <font color="red">I'm a button</font>
+</button>
 ~~~
 
 ## BEMHTML: BEMJSON to HTML
 ~~~ markup
-<button class="button"></button>
+<button class="button">I'm a button</button>
 ~~~
 
 ~~~css
@@ -223,9 +226,9 @@ page
 
 ## BEMHTML: BEMJSON to HTML
 ~~~ markup
-<button class="button"></button>
+<button class="button">I'm a button</button>
 <div>
-    <button class="button"></button>
+    <button class="button">I'm another button</button>
 </div>
 ~~~
 
@@ -239,7 +242,8 @@ page
 
 ~~~javascript
 {
-    block: 'button'
+    block: 'button',
+    content: 'I am button'
 }
 ~~~
 
@@ -254,11 +258,13 @@ block('button')(
 ~~~javascript
 [
     {
-        block: 'button'
+        block: 'button',
+        content: 'I am button'
     },
     {
         content: {
-            block: 'button'
+            block: 'button',
+            content: 'I am another button'
         }
     }
 ]
@@ -411,7 +417,7 @@ project/
     border-radius: 5px;
 }
 
-.button_disabled {
+.button--disabled {
     opacity: .5;
 }
 ~~~
@@ -426,7 +432,7 @@ project/
     border-radius: 5px;
 }
 
-.button_disabled {
+.button--disabled {
     opacity: .5;
 }
 ~~~
