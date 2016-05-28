@@ -725,7 +725,8 @@ body .slide:first-of-type h2
 {
     letter-spacing: 0.2px;
 
-    font-size: 33px;
+    /*font-size: 33px;*/
+    font-size: 60px;
     font-weight: normal;
     line-height: 1.5;
 }
