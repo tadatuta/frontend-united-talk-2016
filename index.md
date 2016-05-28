@@ -36,7 +36,7 @@ layout: default
 ## **![](pictures/anatomy4.png)**
 {:.cover}
 
-## **Blocks are made with <br> <span style="font-size: 200%; line-height: 1.6">elements</span>**
+## **Blocks are made of <br> <span style="font-size: 200%; line-height: 1.6">elements</span>**
 
 ## **![](pictures/anatomy5.png)**
 {:.cover}
