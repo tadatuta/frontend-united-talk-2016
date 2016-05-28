@@ -943,16 +943,19 @@ ul li a:after
 #pictureshorsegif,
 #picturesquestionsgif,
 #picturestoolsgif,
-#picturesgoodgif {
+#picturesgoodgif,
+#picturesbest-toolsgif {
     background: #000 !important;
 }
 
 #pictureshorsegif img,
 #picturesquestionsgif img,
-#picturestoolsgif img,
-#picturesgoodgif img
+#picturesgoodgif img,
+#picturesbest-toolsgif img
 {
     transform: scale(5,5);
-    /*width: 300%;*/
-    /*height: 300% !important;*/
+}
+
+#picturestoolsgif img {
+    transform: scale(6,6);
 }

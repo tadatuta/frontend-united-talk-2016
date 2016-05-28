@@ -22,6 +22,9 @@ layout: default
 
 ## **<span style="font-size: 150%">BEM is <span style="color: red">not</span> just about CSS</span>**
 
+## **![](pictures/best-tools.gif)**
+{:.cover}
+
 ## **Interfaces are built with <br> <span style="font-size: 200%; line-height: 1.6">blocks</span>**
 
 ## **![](pictures/anatomy1.png)**
